@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a558e54-d5d1-4d18-966d-202d70081ba3" name="Default Changelist" comment="" />
+    <list default="true" id="7a558e54-d5d1-4d18-966d-202d70081ba3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/example_backend_rails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/example_backend_rails.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/tickets_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/tickets_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/tickets_controller/_get_tickets.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +24,13 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1vN7GNHgSiEwNJbMjQlQ4DezWN0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -143,10 +157,14 @@
       <option name="presentableId" value="Default" />
       <updated>1626390595862</updated>
       <workItem from="1626390598460" duration="37000" />
+      <workItem from="1626562004644" duration="537000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/example_backend_rails@Development__example_backend_rails.rcov" NAME="Development: example_backend_rails Coverage Results" MODIFIED="1626563021751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="example_backend_rails" />
   </component>
 </project>

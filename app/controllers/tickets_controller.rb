@@ -1,6 +1,6 @@
 class TicketsController < ApplicationController
 
-    def get_tickets
+    def index
         @tickets = Ticket.all
     end
 end
