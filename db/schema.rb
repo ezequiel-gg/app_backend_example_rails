@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 2021_07_15_234052) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "clients", force: :cascade do |t|
     t.string "first_name"
     t.string "last_name"
@@ -31,8 +34,8 @@ ActiveRecord::Schema.define(version: 2021_07_15_234052) do
     t.string "ticketid"
     t.text "subject"
     t.datetime "date"
-    t.integer "client_id"
-    t.integer "ticket_status_id"
+    t.bigint "client_id"
+    t.bigint "ticket_status_id"
     t.text "body"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
