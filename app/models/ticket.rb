@@ -1,4 +1,4 @@
 class Ticket < ApplicationRecord
     belongs_to :client
-    has_one :ticket_status
+    belongs_to :ticket_status
 end

@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a558e54-d5d1-4d18-966d-202d70081ba3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/example_backend_rails.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/example_backend_rails.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20210715234024_add_default_statuses.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20210715234024_add_default_statuses.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20210715234039_add_example_clients.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20210715234039_add_example_clients.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20210715234052_add_example_tickets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20210715234052_add_example_tickets.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/tickets_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/api/tickets_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/tickets/index.json.jbuilder" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/api/tickets/show.json.jbuilder" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +43,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/api" />
+      <recent name="$PROJECT_DIR$/app/controllers/api" />
+    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: example_backend_rails">
     <configuration name="Development: example_backend_rails" type="RailsRunConfigurationType" factoryName="Rails">
@@ -164,7 +164,7 @@
       <updated>1626390595862</updated>
       <workItem from="1626390598460" duration="37000" />
       <workItem from="1626562004644" duration="1328000" />
-      <workItem from="1626564420462" duration="369000" />
+      <workItem from="1626564420462" duration="1093000" />
     </task>
     <servers />
   </component>
@@ -183,6 +183,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/example_backend_rails@Development__example_backend_rails.rcov" NAME="Development: example_backend_rails Coverage Results" MODIFIED="1626564435857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="example_backend_rails" />
+    <SUITE FILE_PATH="coverage/example_backend_rails@Development__example_backend_rails.rcov" NAME="Development: example_backend_rails Coverage Results" MODIFIED="1626565265063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="example_backend_rails" />
   </component>
 </project>

@@ -1,3 +1,3 @@
 class TicketStatus < ApplicationRecord
-    belongs_to :ticket
+    has_one :ticket
 end
